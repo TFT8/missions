@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=4973;
+		nextID=4977;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1144;
+		nextID=1174;
 	};
 	class Camera
 	{
-		pos[]={7476.1079,31.210691,7432.043};
-		dir[]={0.89642572,-0.44322386,0.0086523583};
-		up[]={0.44326371,0.89638275,0.0042780396};
-		aside[]={0.0096520614,2.0849484e-008,-1.0000001};
+		pos[]={7498.7637,38.832298,7449.3726};
+		dir[]={0.74856329,-0.66304457,-0.013258231};
+		up[]={0.66308087,0.74845552,-0.011744361};
+		aside[]={-0.017710272,1.956214e-007,-0.99990904};
 	};
 };
 binarizationWanted=0;
@@ -51,13 +51,16 @@ addons[]=
 	"A3_Ui_F",
 	"A3_Characters_F",
 	"cfp_uniforms",
-	"ace_explosives"
+	"ace_explosives",
+	"A3_Soft_F_Gamma_Truck_01",
+	"A3_Soft_F_Exp_Truck_01",
+	"ace_realisticnames"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=18;
+		items=20;
 		class Item0
 		{
 			className="A3_Structures_F_Mil";
@@ -179,6 +182,20 @@ class AddonsMetaData
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
+		class Item18
+		{
+			className="A3_Soft_F_Gamma";
+			name="Arma 3 - Unarmored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item19
+		{
+			className="A3_Soft_F_Exp";
+			name="Arma 3 Apex - Unarmored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 dlcs[]=
@@ -192,6 +209,7 @@ class ScenarioData
 	overviewText="TFT8_MISSION_TEMPLATE";
 	overviewTextLocked="TFT8_MISSION_TEMPLATE";
 	overViewPicture="intro.jpg";
+	overViewPictureLocked="intro.jpg";
 	onLoadMission="TFT8_MISSION_TEMPLATE";
 	loadScreen="intro.jpg";
 	saving=0;
@@ -489,6 +507,7 @@ class CustomAttributes
 };
 class Mission
 {
+	assetType="Free";
 	class Intel
 	{
 		briefingName="TFT8 TEMPLATE";
@@ -537,7 +556,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=9;
+		items=12;
 		class Item0
 		{
 			dataType="Layer";
@@ -1068,7 +1087,7 @@ class Mission
 			name="TFT8 System";
 			class Entities
 			{
-				items=5;
+				items=6;
 				class Item0
 				{
 					dataType="Logic";
@@ -1357,6 +1376,97 @@ class Mission
 					name="west_hq";
 					type="b_hq";
 					id=155;
+				};
+				class Item5
+				{
+					dataType="Logic";
+					class PositionInfo
+					{
+						position[]={7535.5,5,7435};
+					};
+					name="tft_zeus_2";
+					id=4973;
+					type="ModuleCurator_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ModuleCurator_F_Owner";
+							expression="_this setVariable ['Owner',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="76561198066624226";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ModuleCurator_F_Forced";
+							expression="_this setVariable ['Forced',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ModuleCurator_F_Name";
+							expression="_this setVariable ['Name',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="ModuleCurator_F_Addons";
+							expression="_this setVariable ['Addons',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=3;
+								};
+							};
+						};
+						nAttributes=4;
+					};
 				};
 			};
 			id=2553;
@@ -9195,7 +9305,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={7530.9707,5,7431.7192};
-								angles[]={-0,3.6651917,0};
+								angles[]={0,3.6651917,0};
 							};
 							name="hc_1";
 							isPlayable=1;
@@ -9208,7 +9318,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={7532.5,5,7432};
-								angles[]={-0,3.6651917,0};
+								angles[]={0,3.6651917,0};
 							};
 							name="hc_2";
 							isPlayable=1;
@@ -9221,7 +9331,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={7534.0571,5,7432.1934};
-								angles[]={-0,3.6651917,0};
+								angles[]={0,3.6651917,0};
 							};
 							name="hc_3";
 							isPlayable=1;
@@ -9233,6 +9343,54 @@ class Mission
 				};
 			};
 			id=4972;
+		};
+		class Item9
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7536.5313,6.9255862,7455.1553};
+				angles[]={-0,3.1415927,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4974;
+			type="B_Truck_01_ammo_F";
+		};
+		class Item10
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7532.5,6.9160042,7455};
+				angles[]={-0,3.1415927,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4975;
+			type="B_Truck_01_fuel_F";
+		};
+		class Item11
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7528.5,7.3134775,7455.5};
+				angles[]={-0,3.1415927,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4976;
+			type="B_Truck_01_Repair_F";
 		};
 	};
 };
