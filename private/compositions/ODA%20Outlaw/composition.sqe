@@ -1,0 +1,774 @@
+version=54;
+center[]={7520.3335,5,7439.8335};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=12;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.6665039,0.0014390945,0.21630859};
+					angles[]={0,1.5707963,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					name="odb_cc";
+					description="Company Commander@Outlaw";
+					isPlayable=1;
+				};
+				id=4980;
+				type="B_officer_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male07ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.6665039,0.0014390945,-1.7836914};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="odb_cxo";
+					description="Company Executive Officer@Outlaw";
+					isPlayable=1;
+				};
+				id=4982;
+				type="B_officer_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male02ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.98000002;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.6665039,0.0014390945,0.21630859};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="odb_tech";
+					description="Company Technician@Outlaw";
+					isPlayable=1;
+				};
+				id=4984;
+				type="B_officer_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male10ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.98000002;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.6665039,0.0014390945,2.2163086};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="odb_csm";
+					description="Company Sergeant Major@Outlaw";
+					isPlayable=1;
+				};
+				id=4986;
+				type="B_Soldier_SL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male09ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.94999999;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item4
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.6665039,0.0014390945,-1.7836914};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					name="odb_os";
+					description="Operations Sergeant@Outlaw";
+					isPlayable=1;
+				};
+				id=4991;
+				type="B_Soldier_TL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male12ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.98000002;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item5
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.33349609,0.0014390945,0.21630859};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="odb_is";
+					description="Intelligence Sergeant@Outlaw";
+					isPlayable=1;
+				};
+				id=4990;
+				type="B_Soldier_TL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male03ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.02;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item6
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.33349609,0.0014390945,-1.7836914};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="odb_ws";
+					description="Weapons Sergeant@Outlaw";
+					isPlayable=1;
+				};
+				id=4993;
+				type="B_Soldier_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male12ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.94999999;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item7
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.33349609,0.0014390945,2.2163086};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="odb_ws_1";
+					description="Weapons Sergeant@Outlaw";
+					isPlayable=1;
+				};
+				id=4995;
+				type="B_Soldier_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male12ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.94999999;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item8
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-2.3334961,0.0014390945,-1.7836914};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="odb_es";
+					description="Engineer Sergeant@Outlaw";
+					isPlayable=1;
+				};
+				id=4997;
+				type="B_engineer_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.02;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item9
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-2.3334961,0.0014390945,2.2163086};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="odb_es_1";
+					description="Engineer Sergeant@Outlaw";
+					isPlayable=1;
+				};
+				id=4999;
+				type="B_engineer_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.02;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item10
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-2.3334961,0.0014390945,0.21630859};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="odb_ms";
+					description="Medical Sergeant@Outlaw";
+					isPlayable=1;
+				};
+				id=5009;
+				type="B_medic_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male05ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.97000003;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item11
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-4.3334961,0.0014390945,0.21630859};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="odb_comms";
+					description="Communications Sergeant@Outlaw";
+					isPlayable=1;
+				};
+				id=5011;
+				type="B_recon_JTAC_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male11ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.98000002;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=4979;
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="groupID";
+				expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };                        ";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="Outlaw";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+};

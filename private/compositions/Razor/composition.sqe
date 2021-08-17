@@ -1,0 +1,3466 @@
+version=54;
+center[]={7523.8687,5,7431.001};
+class items
+{
+	items=12;
+	class Item0
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={6.1313477,0.0014390945,1.0488281};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					name="soac_cc";
+					description="Commanding Officer@Razor 0-6";
+					isPlayable=1;
+				};
+				id=3128;
+				type="B_Helipilot_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male12ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.95999998;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=3127;
+	};
+	class Item1
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={6.1772461,0.0014390945,-0.93994141};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					name="soac_xo";
+					description="Executive Officer@Razor 0-5";
+					isPlayable=1;
+				};
+				id=3130;
+				type="B_Helipilot_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male12ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.95999998;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=3129;
+	};
+	class Item2
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={6.1313477,0.0014390945,3.0488281};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					name="soac_pl";
+					description="Platoon Leader@Razor 1-6";
+					isPlayable=1;
+				};
+				id=3132;
+				type="B_Helipilot_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male12ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.95999998;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=3131;
+	};
+	class Item3
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=3;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={4.1313477,0.0014390945,3.0488281};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					name="soac_pilot";
+					description="Pilot@Razor 1-1";
+					isPlayable=1;
+				};
+				id=3134;
+				type="B_Helipilot_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male12ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.95999998;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={2.1313477,0.0014390945,3.0488281};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="soac_crew";
+					description="Aircrew@Razor 1-1";
+					isPlayable=1;
+				};
+				id=3135;
+				type="B_helicrew_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.01;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.13134766,0.0014390945,3.0488281};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="soac_crew_1";
+					description="Aircrew@Razor 1-1";
+					isPlayable=1;
+				};
+				id=3136;
+				type="B_helicrew_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.01;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=3133;
+	};
+	class Item4
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=3;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={4.1313477,0.0014390945,1.0488281};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					name="soac_pilot_1";
+					description="Pilot@Razor 1-2";
+					isPlayable=1;
+				};
+				id=3138;
+				type="B_Helipilot_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male12ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.95999998;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={2.1313477,0.0014390945,1.0488281};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="soac_crew_2";
+					description="Aircrew@Razor 1-2";
+					isPlayable=1;
+				};
+				id=3139;
+				type="B_helicrew_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.01;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.13134766,0.0014390945,1.0488281};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="soac_crew_3";
+					description="Aircrew@Razor 1-2";
+					isPlayable=1;
+				};
+				id=3140;
+				type="B_helicrew_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.01;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=3137;
+	};
+	class Item5
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=3;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-1.8686523,0.0014390945,3.0488281};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					name="soac_pilot_2";
+					description="Pilot@Razor 1-3";
+					isPlayable=1;
+				};
+				id=3142;
+				type="B_Helipilot_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male12ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.95999998;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-3.8686523,0.0014390945,3.0488281};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="soac_crew_4";
+					description="Aircrew@Razor 1-3";
+					isPlayable=1;
+				};
+				id=3143;
+				type="B_helicrew_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.01;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-5.8686523,0.0014390945,3.0488281};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="soac_crew_5";
+					description="Aircrew@Razor 1-3";
+					isPlayable=1;
+				};
+				id=3144;
+				type="B_helicrew_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.01;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=3141;
+	};
+	class Item6
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=3;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-1.8686523,0.0014390945,1.0488281};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					name="soac_pilot_3";
+					description="Pilot@Razor 1-4";
+					isPlayable=1;
+				};
+				id=3146;
+				type="B_Helipilot_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male12ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.95999998;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-3.8686523,0.0014390945,1.0488281};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="soac_crew_6";
+					description="Aircrew@Razor 1-4";
+					isPlayable=1;
+				};
+				id=3147;
+				type="B_helicrew_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.01;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-5.8686523,0.0014390945,1.0488281};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="soac_crew_7";
+					description="Aircrew@Razor 1-4";
+					isPlayable=1;
+				};
+				id=3148;
+				type="B_helicrew_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.01;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=3145;
+	};
+	class Item7
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={6.1313477,0.0014390945,-2.9511719};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					name="soac_pl_1";
+					description="Platoon Leader@Razor 2-6";
+					isPlayable=1;
+				};
+				id=3150;
+				type="B_Helipilot_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male12ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.95999998;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=3149;
+	};
+	class Item8
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=3;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={4.1313477,0.0014390945,-0.95117188};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					name="soac_pilot_4";
+					description="Pilot@Razor 2-1";
+					isPlayable=1;
+				};
+				id=3152;
+				type="B_Helipilot_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male12ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.95999998;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={2.1313477,0.0014390945,-0.95117188};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="soac_crew_8";
+					description="Aircrew@Razor 2-1";
+					isPlayable=1;
+				};
+				id=3153;
+				type="B_helicrew_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.01;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.13134766,0.0014390945,-0.95117188};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="soac_crew_9";
+					description="Aircrew@Razor 2-1";
+					isPlayable=1;
+				};
+				id=3154;
+				type="B_helicrew_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.01;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=3151;
+	};
+	class Item9
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=3;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={4.1313477,0.0014390945,-2.9511719};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					name="soac_pilot_5";
+					description="Pilot@Razor 2-2";
+					isPlayable=1;
+				};
+				id=3156;
+				type="B_Helipilot_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male12ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.95999998;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={2.1313477,0.0014390945,-2.9511719};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="soac_crew_10";
+					description="Aircrew@Razor 2-2";
+					isPlayable=1;
+				};
+				id=3157;
+				type="B_helicrew_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.01;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.13134766,0.0014390945,-2.9511719};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="soac_crew_11";
+					description="Aircrew@Razor 2-2";
+					isPlayable=1;
+				};
+				id=3158;
+				type="B_helicrew_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.01;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=3155;
+	};
+	class Item10
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=3;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-1.8686523,0.0014390945,-0.95117188};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					name="soac_pilot_6";
+					description="Pilot@Razor 2-3";
+					isPlayable=1;
+				};
+				id=3160;
+				type="B_Helipilot_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male12ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.95999998;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-3.8686523,0.0014390945,-0.95117188};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="soac_crew_12";
+					description="Aircrew@Razor 2-3";
+					isPlayable=1;
+				};
+				id=3161;
+				type="B_helicrew_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.01;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-5.8686523,0.0014390945,-0.95117188};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="soac_crew_13";
+					description="Aircrew@Razor 2-3";
+					isPlayable=1;
+				};
+				id=3162;
+				type="B_helicrew_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.01;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=3159;
+	};
+	class Item11
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=3;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-1.8686523,0.0014390945,-2.9511719};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					name="soac_pilot_7";
+					description="Pilot@Razor 2-4";
+					isPlayable=1;
+				};
+				id=3164;
+				type="B_Helipilot_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male12ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.95999998;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-3.8686523,0.0014390945,-2.9511719};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="soac_crew_14";
+					description="Aircrew@Razor 2-4";
+					isPlayable=1;
+				};
+				id=3165;
+				type="B_helicrew_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.01;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-5.8686523,0.0014390945,-2.9511719};
+					angles[]={0,1.5707964,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="soac_crew_15";
+					description="Aircrew@Razor 2-4";
+					isPlayable=1;
+				};
+				id=3166;
+				type="B_helicrew_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.01;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_advanced_fatigue_performanceFactor";
+						expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=3163;
+	};
+};

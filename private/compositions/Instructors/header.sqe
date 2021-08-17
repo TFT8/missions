@@ -1,0 +1,8 @@
+version=54;
+name="Instructors";
+author="TFT8";
+category="EdSubcat_Camping";
+requiredAddons[]=
+{
+	"A3_Characters_F"
+};

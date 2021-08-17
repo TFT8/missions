@@ -1,0 +1,9 @@
+version=54;
+name="[242] Joint Ops Assets";
+author="242 Nightstalkers";
+category="EdSubcat_Camping";
+requiredAddons[]=
+{
+	"A3_Structures_F_Tank_Military_RepairDepot",
+	"Desert"
+};

@@ -1,0 +1,19 @@
+version=54;
+name="[242] WNT Composition";
+author="242 Nightstalkers";
+category="EdSubcat_Camping";
+requiredAddons[]=
+{
+	"A3_Characters_F",
+	"A3_Characters_F_Mark",
+	"A3_Modules_F_Curator_Curator",
+	"A3_Modules_F_StrategicMap",
+	"A3_Armor_F_Exp_APC_Wheeled_01",
+	"A3_Armor_F_Tank_AFV_Wheeled_01",
+	"ace_realisticnames",
+	"A3_Air_F_Exp_VTOL_01",
+	"A3_Drones_F_Air_F_Gamma_UAV_01",
+	"A3_Modules_F",
+	"A3_Soft_F_Exp_UGV_01",
+	"A3_Characters_F_Common"
+};

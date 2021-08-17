@@ -1,0 +1,136 @@
+
+#include "scripts\VVS\menu.h"
+#include "dialogs\defines.hpp"
+#include "dialogs\dialogs.hpp"
+
+class CfgFunctions
+{
+	#include "DCONVS\functions.hpp"
+    #include "functions\training\CfgFunctions.hpp"
+    #include "scripts\VVS\Functions.h"
+};
+/*
+class CfgORBAT
+{
+	class TFT8
+	{
+		id = 8;		// Unit ID
+		idType = 0;	// Unit ID type
+		side = "West"; // Unit side from CfgChainOfCommand >> Sides
+		size = "Battalion"; // Unit size from CfgChainOfCommand >> Sizes. Displays relevant icon above the Type icon
+		type = "HQ"; // Unit type from CfgChainOfCommand >> Types
+		insignia = "tft_faction\logo_tft8_512.paa"; // Unit insignia, displayed in ORBAT background and in tooltip
+		//colorInsignia[] = {1,1,1,1}; // Insignia image color (white default), can be either RGBA array, or class from CfgMarkerColors
+		//commander = "TFT8"; // Name of unit commander. Can be either direct name, or class from CfgWorlds >> GenericNames (random name from the list is then selected)
+		//commanderRank = "Commander"; // Rank of unit commander (by default selected based on unit size)
+		tags[] = {BIS,TFT8}; // Group tags. When opening ORBAT viewer, user can define what tags will be accepted.
+		text = "Task Force Tempor 8"; // Custom text and short text, can still use some arguments when defined:
+		// %1 - ID (e.g. "7th")
+		// %2 - Type (e.g. "Infantry")
+		// %3 - Size (e.g. "Division")
+		textShort = "TFT8";
+		texture = "tft_faction\logo_tft8_512.paa"; // Custom texture, will replace icon set by 'type' param.
+		color[] = {1,1,1,1}; // Custom color, will replace color set by 'side' param. Can be either RGBA array, or class from CfgMarkerColors (e.g. color = "ColorWEST";)
+		//description = "Joint Task Force composed of a Ranger platoon, Spartan, and an aviation detachment, Razor."; // A brief description of the group or unit.
+		//assets[] = {{B_Heli_Transport_03_F,5},{B_Heli_Light_01_F,3},{B_Heli_Light_01_armed_F,4},B_Heli_Transport_01_camo_F}; // Will display pictures of all available assets to the unit commander:
+	 	// Can be an array with format {classname, [int active icons], [int greyed out icons]}, or simply a classname
+		//subordinates[] = {2ndBCT}; // Subordinates, searched on the same level as this class.
+  		
+		// When 'subordinates' are missing, child classes will be used. They can have their own subs - number of tiers is not limited.
+		class SFG {
+			id = 1;
+			type = "Infantry";
+			size = "Company";
+			side = "West";
+            text = "5th Special Forces Group"; // Custom text and short text, can still use some rguments when defined:
+            textShort = "5th SFG";
+            description = "B. Company, 1st Battalion, 5th Special Forces Group(A)"; // Custom text and short text, can still use some arguments when defined:
+			commander = "Vires";
+            commanderRank = "Major"; // Rank of unit commander (by default selected based on unit size)
+			tags[] = {"BLUFOR", "TFT8","5thSFG"};
+            class Outlaw {
+                id = 1;
+                type = "Infantry";
+                size = "Squad";
+                side = "West";
+				text = "Operational Detachment Bravo - 5120"; // Custom text and short text, can still use some rguments when defined:
+				textShort = "Outlaw";
+                commander = "Vires";
+                commanderRank = "Major"; // Rank of unit commander (by default selected based on unit size)
+                tags[] = {"BLUFOR", "TFT8","Outlaw"};
+            };
+			class Spartan {
+                id = 1;
+                type = "Infantry";
+                size = "Squad";
+                side = "West";
+				text = "Operational Detachment Alpha - 5121"; // Custom text and short text, can still use some rguments when defined:
+				textShort = "Spartan";
+                commander = "Manus";
+                commanderRank = "Lieutenant"; // Rank of unit commander (by default selected based on unit size)
+                tags[] = {"BLUFOR", "TFT8","Spartan"};
+            };
+  		};
+		class Razor	{
+			id = 1;
+			type = "Helicopter";
+			size = "Company";
+			side = "West";
+            text = "Special Operations Aviation Component Headquarters"; // Custom text and short text, can still use some rguments when defined:
+            textShort = "SOAC HQ";
+            description = "Mixed Helicopter Company: 160th SOAR | 40th Combat Aviation Brigade"; // Custom text and short text, can still use some arguments when defined:
+			commander = "Collins";
+            commanderRank = "Captain"; // Rank of unit commander (by default selected based on unit size)
+			tags[] = {"BLUFOR", "TFT8","Razor"};
+            assets[] = {
+                {vtx_MH60M,1,0},
+                {tft8_chinook,1,0},
+                {tft8_littlebird_transport,1,0}
+            };
+			class Razor_1 {
+                id = 1;
+                type = "Helicopter";
+                size = "Platoon";
+                side = "West";
+				text = "Razor 1st Platoon"; // Custom text and short text, can still use some rguments when defined:
+				textShort = "Razor 1-X";
+                commander = "REDACTED";
+                commanderRank = "Lieutenant"; // Rank of unit commander (by default selected based on unit size)
+                tags[] = {"BLUFOR", "TFT8","Razor"};
+				assets[] = {
+					{vtx_MH60M,1,0},
+					{tft8_chinook,1,0},
+					{tft8_littlebird_transport,1,0}
+				};
+			};
+			class Razor_2 {
+                id = 1;
+                type = "Helicopter";
+                size = "Platoon";
+                side = "West";
+				text = "Razor 2nd Platoon"; // Custom text and short text, can still use some rguments when defined:
+				textShort = "Razor 2-X";
+                commander = "REDACTED";
+                commanderRank = "Lieutenant"; // Rank of unit commander (by default selected based on unit size)
+                tags[] = {"BLUFOR", "TFT8","Razor"};
+				assets[] = {
+					{vtx_MH60M,1,0},
+					{tft8_chinook,1,0},
+					{tft8_littlebird_transport,1,0}
+				};
+			};
+			class Razor_3 {
+                id = 1;
+                type = "Service";
+                size = "Platoon";
+                side = "West";
+				text = "Razor 3rd Platoon"; // Custom text and short text, can still use some rguments when defined:
+				textShort = "Aircrew";
+                commander = "Boyd";
+                commanderRank = "Sergeant"; // Rank of unit commander (by default selected based on unit size)
+                tags[] = {"BLUFOR", "TFT8","Razor"};
+			};
+		};
+	};
+};
+*/

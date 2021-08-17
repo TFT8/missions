@@ -1,0 +1,434 @@
+version=54;
+center[]={7538.625,5,7415.5};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="Joint Op Assets";
+		class Entities
+		{
+			items=4;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.625,2.4179983,8};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="call{[[this],west,""242Multi2035"",2, 1, 2, 0, 1, 0] spawn NS_BASE_FNC_Setcrate;}";
+					name="multi_242";
+				};
+				id=2443;
+				type="Land_RepairDepot_01_green_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_repair_editorLoadedTracks";
+						expression="_this setVariable ['ace_repair_editorLoadedTracks',_value];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=100;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_refuel_fuelCargo";
+						expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1000;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="ace_repair_editorLoadedWheels";
+						expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=100;
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="ace_cargo_space";
+						expression="[_this, _value] call ace_cargo_fnc_setSpace;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1000;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_cargo_size";
+						expression="[_this, _value] call ace_cargo_fnc_setSize;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute5
+					{
+						property="ace_rearm_rearmCargo";
+						expression="if (_value != (if (isNumber (configOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1000;
+							};
+						};
+					};
+					nAttributes=6;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.625,2.4179983,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="call{[[this],west,""242woodland2035"",2, 1, 2, 0, 1, 0] spawn NS_BASE_FNC_Setcrate;}";
+					name="woodland_242";
+				};
+				id=2444;
+				type="Land_RepairDepot_01_green_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_repair_editorLoadedTracks";
+						expression="_this setVariable ['ace_repair_editorLoadedTracks',_value];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=100;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_refuel_fuelCargo";
+						expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1000;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="ace_repair_editorLoadedWheels";
+						expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=100;
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="ace_cargo_space";
+						expression="[_this, _value] call ace_cargo_fnc_setSpace;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1000;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_cargo_size";
+						expression="[_this, _value] call ace_cargo_fnc_setSize;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute5
+					{
+						property="ace_rearm_rearmCargo";
+						expression="if (_value != (if (isNumber (configOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1000;
+							};
+						};
+					};
+					nAttributes=6;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.625,2.4179983,-8};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					health=0.49437299;
+					init="call{[[this],west,""242winter2035"",2, 1, 2, 0, 1, 0] spawn NS_BASE_FNC_Setcrate;}";
+					name="winter_242";
+				};
+				id=2442;
+				type="Land_RepairDepot_01_civ_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_repair_editorLoadedTracks";
+						expression="_this setVariable ['ace_repair_editorLoadedTracks',_value];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=100;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_refuel_fuelCargo";
+						expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1000;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="ace_repair_editorLoadedWheels";
+						expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=100;
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="ace_cargo_space";
+						expression="[_this, _value] call ace_cargo_fnc_setSpace;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1000;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_cargo_size";
+						expression="[_this, _value] call ace_cargo_fnc_setSize;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute5
+					{
+						property="ace_rearm_rearmCargo";
+						expression="if (_value != (if (isNumber (configOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1000;
+							};
+						};
+					};
+					nAttributes=6;
+				};
+			};
+			class Item3
+			{
+				dataType="Comment";
+				class PositionInfo
+				{
+					position[]={1.875,0.36694145,0};
+				};
+				title="242's Supply Depots";
+				description="The Vehicle Depots contain 242's loadouts for each terrain that can also repair their vehicles." \n "" \n "They are premade to just simply keep one of the Depot for use on the map.";
+				id=2452;
+			};
+		};
+		id=2472;
+		atlOffset=8.9645386e-005;
+	};
+};

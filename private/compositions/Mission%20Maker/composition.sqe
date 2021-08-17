@@ -1,0 +1,103 @@
+version=54;
+center[]={7527.8989,5,7441.9839};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0,0.0014390945,0.049804688};
+					angles[]={0,4.712389,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					name="mm";
+					description="Mission Maker@Skyeye";
+					isPlayer=1;
+				};
+				id=4978;
+				type="B_Survivor_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male02ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.05;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=4977;
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="groupID";
+				expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };                        ";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="Skyeye";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+};

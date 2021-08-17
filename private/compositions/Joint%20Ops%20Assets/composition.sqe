@@ -1,0 +1,1290 @@
+version=54;
+center[]={7532.375,5,7439.5835};
+class items
+{
+	items=6;
+	class Item0
+	{
+		dataType="Layer";
+		name="Joint Op Assets";
+		class Entities
+		{
+			items=15;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={5.625,2.4179983,-16.083496};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="call{[[this],west,""242Multi2035"",2, 1, 2, 0, 1, 0] spawn NS_BASE_FNC_Setcrate;}";
+					name="multi_242";
+				};
+				id=2443;
+				type="Land_RepairDepot_01_green_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_repair_editorLoadedTracks";
+						expression="_this setVariable ['ace_repair_editorLoadedTracks',_value];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=100;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_refuel_fuelCargo";
+						expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1000;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="ace_repair_editorLoadedWheels";
+						expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=100;
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="ace_cargo_space";
+						expression="[_this, _value] call ace_cargo_fnc_setSpace;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1000;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_cargo_size";
+						expression="[_this, _value] call ace_cargo_fnc_setSize;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute5
+					{
+						property="ace_rearm_rearmCargo";
+						expression="if (_value != (if (isNumber (configOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1000;
+							};
+						};
+					};
+					nAttributes=6;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={5.625,2.4179983,-24.083496};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="call{[[this],west,""242woodland2035"",2, 1, 2, 0, 1, 0] spawn NS_BASE_FNC_Setcrate;}";
+					name="woodland_242";
+				};
+				id=2444;
+				type="Land_RepairDepot_01_green_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_repair_editorLoadedTracks";
+						expression="_this setVariable ['ace_repair_editorLoadedTracks',_value];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=100;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_refuel_fuelCargo";
+						expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1000;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="ace_repair_editorLoadedWheels";
+						expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=100;
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="ace_cargo_space";
+						expression="[_this, _value] call ace_cargo_fnc_setSpace;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1000;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_cargo_size";
+						expression="[_this, _value] call ace_cargo_fnc_setSize;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute5
+					{
+						property="ace_rearm_rearmCargo";
+						expression="if (_value != (if (isNumber (configOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1000;
+							};
+						};
+					};
+					nAttributes=6;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={5.625,2.4179983,-32.083496};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					health=0.49437299;
+					init="call{[[this],west,""242winter2035"",2, 1, 2, 0, 1, 0] spawn NS_BASE_FNC_Setcrate;}";
+					name="winter_242";
+				};
+				id=2442;
+				type="Land_RepairDepot_01_civ_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_repair_editorLoadedTracks";
+						expression="_this setVariable ['ace_repair_editorLoadedTracks',_value];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=100;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_refuel_fuelCargo";
+						expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1000;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="ace_repair_editorLoadedWheels";
+						expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=100;
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="ace_cargo_space";
+						expression="[_this, _value] call ace_cargo_fnc_setSpace;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1000;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ace_cargo_size";
+						expression="[_this, _value] call ace_cargo_fnc_setSize;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute5
+					{
+						property="ace_rearm_rearmCargo";
+						expression="if (_value != (if (isNumber (configOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1000;
+							};
+						};
+					};
+					nAttributes=6;
+				};
+			};
+			class Item3
+			{
+				dataType="Comment";
+				class PositionInfo
+				{
+					position[]={8.125,0.36694145,-24.083496};
+				};
+				title="242's Supply Depots";
+				description="The Vehicle Depots contain 242's loadouts for each terrain that can also repair their vehicles." \n "" \n "They are premade to just simply keep one of the Depot for use on the map.";
+				id=2452;
+			};
+			class Item4
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.5263672,0.28405476,2.0405273};
+					angles[]={0,1.5707964,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=2626;
+				type="Box_TFT8_Ammo_F";
+			};
+			class Item5
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.0263672,0.89242268,2.0405273};
+					angles[]={0,1.5707964,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=2627;
+				type="TFT_supplyCrate_F";
+			};
+			class Item6
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={5.0263672,0.89242268,2.0405273};
+					angles[]={0,1.5707964,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=2628;
+				type="TFT_supplyCrate_Adv_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ammoBox";
+						expression="[_this,_value] call bis_fnc_initAmmoBox;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="[[[[""ACE_VMH3""],[2]],[[""Laserbatteries"",""DemoCharge_Remote_Mag"",""SatchelCharge_Remote_Mag"",""SLAMDirectionalMine_Wire_Mag""],[5,5,5,5]],[[""Laserdesignator_03"",""ACE_bodyBag"",""ACE_DefusalKit"",""ACE_EarPlugs"",""ACE_EntrenchingTool"",""ItemGPS"",""ACE_M26_Clacker"",""ACE_SpottingScope"",""ACE_Tripod"",""ACE_wirecutter"",""ToolKit"",""tfw_rf3080Item""],[2,20,4,4,5,4,2,1,1,4,1,1]],[[""tft8_assaultpack_ocp"",""tft8_kitbag_ocp"",""tft8_rt1523g_ocp""],[2,2,2]]],false]";
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item7
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-8.9736328,1.3620372,15.540527};
+					angles[]={0,3.1415927,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=2622;
+				type="B_Slingload_01_Ammo_F";
+			};
+			class Item8
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-6.4736328,1.3624501,15.540527};
+					angles[]={0,3.1415927,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=2623;
+				type="B_Slingload_01_Fuel_F";
+			};
+			class Item9
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-3.9736328,1.3605165,15.540527};
+					angles[]={0,3.1415927,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=2624;
+				type="B_Slingload_01_Repair_F";
+			};
+			class Item10
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.0263672,0.89242268,-4.9594727};
+					angles[]={0,4.7386389,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="call{[this, [""Arsenal"", ""Preparation"", ""Callsigns"", ""Spectator""]] call TFT_fnc_addActions;" \n "[this, true] call ace_arsenal_fnc_initBox;}";
+					name="box";
+				};
+				id=2629;
+				type="B_supplyCrate_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ammoBox";
+						expression="[_this,_value] call bis_fnc_initAmmoBox;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item11
+			{
+				dataType="Comment";
+				class PositionInfo
+				{
+					position[]={3.5263672,0,2.0405273};
+				};
+				title="Supplies (NOT ARSENALS)";
+				description="Place them in open fields for Spartan or Razor to haul.";
+				id=2630;
+			};
+			class Item12
+			{
+				dataType="Comment";
+				class PositionInfo
+				{
+					position[]={-6.4736328,0,15.040527};
+					angles[]={0,3.1415927,0};
+				};
+				title="TFT8's Vehicle/Supply Depot";
+				description="Slingloadable service/supply crates  for TFT8's Platoons to use.";
+				id=2625;
+			};
+			class Item13
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-14.875,1.9255862,18.416504};
+					angles[]={0,3.1415927,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=2963;
+				type="B_Truck_01_ammo_F";
+			};
+			class Item14
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-19.875,1.9160042,18.416504};
+					angles[]={0,3.1415927,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=2964;
+				type="B_Truck_01_fuel_F";
+			};
+		};
+		id=2472;
+		atlOffset=8.9645386e-005;
+	};
+	class Item1
+	{
+		dataType="Layer";
+		name="TFT8 System";
+		class Entities
+		{
+			items=5;
+			class Item0
+			{
+				dataType="Logic";
+				class PositionInfo
+				{
+					position[]={9.5258789,0,8.0405273};
+				};
+				name="orbat_TFT8";
+				id=2635;
+				type="ModuleStrategicMapORBAT_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ModuleStrategicMapORBAT_F_Path";
+						expression="_this setVariable ['Path',_value,true];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="configfile >> ""CfgORBAT"" >> ""TFT8""";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ModuleStrategicMapORBAT_F_Tags";
+						expression="_this setVariable ['Tags',_value,true];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="";
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="ModuleStrategicMapORBAT_F_Parent";
+						expression="_this setVariable ['Parent',_value,true];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="ModuleStrategicMapORBAT_F_Tiers";
+						expression="_this setVariable ['Tiers',_value,true];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="";
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+			class Item1
+			{
+				dataType="Logic";
+				class PositionInfo
+				{
+					position[]={8.0610352,0,-3.9663086};
+				};
+				name="tft_zeus_1";
+				id=2636;
+				type="ModuleCurator_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ModuleCurator_F_Owner";
+						expression="_this setVariable ['Owner',_value,true];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="mm";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ModuleCurator_F_Forced";
+						expression="_this setVariable ['Forced',_value,true];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="ModuleCurator_F_Name";
+						expression="_this setVariable ['Name',_value,true];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="ModuleCurator_F_Addons";
+						expression="_this setVariable ['Addons',_value,true];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=3;
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+			class Item2
+			{
+				dataType="Logic";
+				class PositionInfo
+				{
+					position[]={8.0263672,0,-4.9594727};
+				};
+				name="tft_zeus";
+				id=2637;
+				type="ModuleCurator_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ModuleCurator_F_Owner";
+						expression="_this setVariable ['Owner',_value,true];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="#adminLogged";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ModuleCurator_F_Forced";
+						expression="_this setVariable ['Forced',_value,true];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="ModuleCurator_F_Name";
+						expression="_this setVariable ['Name',_value,true];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="ModuleCurator_F_Addons";
+						expression="_this setVariable ['Addons',_value,true];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=3;
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+			class Item3
+			{
+				dataType="Marker";
+				position[]={-12.375,0,-5.0834961};
+				name="respawn_west";
+				type="Empty";
+				id=2638;
+			};
+			class Item4
+			{
+				dataType="Marker";
+				position[]={1.5263672,0,-1.9594727};
+				name="west_hq";
+				type="b_hq";
+				id=2639;
+			};
+		};
+		id=2631;
+	};
+	class Item2
+	{
+		dataType="Layer";
+		name="TFT8 Objects";
+		class Entities
+		{
+			items=5;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={2.5263672,0.69999981,-1.9594727};
+					angles[]={0,1.5728383,0};
+				};
+				side="Empty";
+				flags=5;
+				class Attributes
+				{
+					init="call{this setVariable[""ace_medical_isMedicalFacility"", true];" \n "[this] call TFT_zeus_fnc_drawBoundingMarker;" \n "}";
+				};
+				id=2617;
+				type="Land_Medevac_house_V1_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedicalFacility";
+						expression="_this setVariable [""ace_medical_isMedicalFacility"", _value, true];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={6.2485352,0.76487494,-3.8652344};
+					angles[]={0,2.1594224,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="call{this addAction [""<t color='#89f3ff'>Enable Camera</t>"", {[] call tft_fnc_enableCamera}, nil, 6, true, true, """", ""_target distance _this < 5""];}";
+					name="S6_Camera";
+				};
+				id=2618;
+				type="Land_GamingSet_01_camera_F";
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={4.5263672,5.9821796,-7.9594727};
+					angles[]={0,0.023736924,0};
+				};
+				side="Empty";
+				flags=5;
+				class Attributes
+				{
+				};
+				id=2619;
+				type="Land_LampHalogen_F";
+				atlOffset=4.7683716e-007;
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={2.5263672,3.9768047,-5.4594727};
+				};
+				side="Empty";
+				flags=5;
+				class Attributes
+				{
+					init="call{""respawn_west"" setMarkerPos (ASLToAGL getPosASL this);}";
+				};
+				id=2620;
+				type="tft8_flag";
+			};
+			class Item4
+			{
+				dataType="Comment";
+				class PositionInfo
+				{
+					position[]={2.5263672,0,-5.4594727};
+				};
+				title="Placeable respawn position";
+				description="You can move the respawn position anywhere, even on top of ships." \n "Note: You can move the respawn position in Zeus under Modules > Respawn > Change Respawn Position.";
+				id=2621;
+			};
+		};
+		id=2616;
+		atlOffset=0.045553207;
+	};
+	class Item3
+	{
+		dataType="Logic";
+		class PositionInfo
+		{
+			position[]={8.125,0,-3.0834961};
+		};
+		name="tft_zeus_2";
+		id=2962;
+		type="ModuleCurator_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ModuleCurator_F_Owner";
+				expression="_this setVariable ['Owner',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="76561198066624226";
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="ModuleCurator_F_Forced";
+				expression="_this setVariable ['Forced',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute2
+			{
+				property="ModuleCurator_F_Name";
+				expression="_this setVariable ['Name',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="";
+					};
+				};
+			};
+			class Attribute3
+			{
+				property="ModuleCurator_F_Addons";
+				expression="_this setVariable ['Addons',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=3;
+					};
+				};
+			};
+			nAttributes=4;
+		};
+	};
+	class Item4
+	{
+		dataType="Layer";
+		name="242_Template_Blufor";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Layer";
+				name="Systems";
+				class Entities
+				{
+					items=1;
+					class Item0
+					{
+						dataType="Layer";
+						name="ORBAT";
+						class Entities
+						{
+							items=1;
+							class Item0
+							{
+								dataType="Logic";
+								class PositionInfo
+								{
+									position[]={4.625,0,11.916504};
+									angles[]={0,5.6094007,0};
+								};
+								name="OrbatA1";
+								id=3507;
+								type="ModuleStrategicMapORBAT_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="ModuleStrategicMapORBAT_F_Path";
+										expression="_this setVariable ['Path',_value,true];";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="configfile >> ""CfgORBAT"" >> ""242ndNS""  >> ""ACO"" >> ""1PLT""";
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="ModuleStrategicMapORBAT_F_Tags";
+										expression="_this setVariable ['Tags',_value,true];";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="";
+											};
+										};
+									};
+									class Attribute2
+									{
+										property="ModuleStrategicMapORBAT_F_Parent";
+										expression="_this setVariable ['Parent',_value,true];";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="configfile >> ""CfgORBAT"" >> ""242ndNS""";
+											};
+										};
+									};
+									class Attribute3
+									{
+										property="ModuleStrategicMapORBAT_F_Tiers";
+										expression="_this setVariable ['Tiers',_value,true];";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="";
+											};
+										};
+									};
+									nAttributes=4;
+								};
+							};
+						};
+						id=3506;
+					};
+				};
+				id=3505;
+			};
+		};
+		id=3504;
+	};
+	class Item5
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-24.375,2.3134775,18.416504};
+			angles[]={0,3.1415927,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=3271;
+		type="B_Truck_01_Repair_F";
+	};
+};

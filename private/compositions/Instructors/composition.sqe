@@ -1,0 +1,408 @@
+version=54;
+center[]={7103.3818,10.155076,5943.1919};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=6;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.95849609,0.0051326752,-0.55126953};
+					angles[]={0,2.1816616,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					name="sds";
+					description="Senior Drill Sergeant@Instructors";
+					isPlayable=1;
+				};
+				id=4937;
+				type="B_Soldier_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male05ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.96679688,0.0033779144,-0.48388672};
+					angles[]={0,2.1816616,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="ds";
+					description="Drill Sergeant@Instructors";
+					isPlayable=1;
+				};
+				id=4939;
+				type="B_Soldier_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male05ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.23388672,0.0066986084,1.1362305};
+					angles[]={0,2.1816616,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="ds_1";
+					description="Drill Sergeant@Instructors";
+					isPlayable=1;
+				};
+				id=4941;
+				type="B_Soldier_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male05ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-1.6337891,0.0014390945,-1.4550781};
+					angles[]={0,2.1816616,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="ds_2";
+					description="Drill Sergeant@Instructors";
+					isPlayable=1;
+				};
+				id=4943;
+				type="B_Soldier_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male05ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item4
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.82763672,0.0082798004,1.8920898};
+					angles[]={0,2.1816616,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="ds_3";
+					description="Drill Sergeant@Instructors";
+					isPlayable=1;
+				};
+				id=4945;
+				type="B_Soldier_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male05ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item5
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.38183594,0.005065918,0.35791016};
+					angles[]={0,2.1816616,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					name="ds_4";
+					description="Drill Sergeant@Instructors";
+					isPlayable=1;
+				};
+				id=4947;
+				type="B_Soldier_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male05ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=4936;
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="groupID";
+				expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };                        ";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="Instructors";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+};
