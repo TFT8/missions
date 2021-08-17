@@ -58,7 +58,7 @@ force force ace_captives_requireSurrenderAi = true;
 force ace_common_allowFadeMusic = true;
 force force ace_common_checkPBOsAction = 1;
 force force ace_common_checkPBOsCheckAll = true;
-force force ace_common_checkPBOsWhitelist = "['DEV_Tools','3denEnhanced', 'compositions_a3', 'CAU_ExtendedFunctionViewer', 'CAU_UserInputMenus', 'ZECCUP', 'warfxpe', 'blastcore_maincore', 'jsrs_soundmod_bullethits', 'jsrs_soundmod_environment', 'jsrs_soundmod_framework', 'jsrs_soundmod_sonic_cracks', 'blastcore_vep', 'jsrs_soundmod_helicopters', 'jsrs_soundmod_landvehicles', 'jsrs_soundmod_movement', 'jsrs_soundmod_weapons', 'jsrs_soundmod_explosions', 'sma_elcan_altzoom_c', 'sma_standardammo', 'jsrs_soundmod_specialist_military_arms_weapons', 'reducedhazemod', 'jsrs_soundmod_snd_air_vehicles', 'jsrs_soundmod_snd_environment', 'jsrs_soundmod_snd_land_vehicles', 'jsrs_soundmod_snd_movement', 'jsrs_soundmod_snd_warfare', 'jsrs_soundmod_snd_weapons', 'jsrs_soundmod_cfg_cup_weapons', 'jsrs_soundmod_cup_vehicles', 'jsrs_soundmod_rhs_usf_weapons', 'JSRS_Soundmod_Cfg_RHS_USF_Air_Vehicles', 'Zab_splendid_smoke', 'TER_Eden', 'jsrs_soundmod_snd_sea_vehicles', 'jsrs_soundmod_boats', 'jsrs_soundmod_complete_edition_soundfiles', 'jsrs_soundmod_complete_edition', 'jsrs_soundmod_cup_weapons', 'jsrs_soundmod_cfg_rhs_usf_weapons', 'JSRS_Soundmod_Cfg_RHS_USF_Vehicles','achilles_data_f_ares', 'achilles_language_f', 'achilles_data_f_achilles', 'achilles_functions_f_ares', 'achilles_functions_f_achilles', 'achilles_modules_f_ares', 'achilles_settings_f', 'achilles_ui_f', 'achilles_modules_f_achilles', 'AchillesEffects','HeadRangePlus','VCOM_AI','lambs_danger','athena', 'UtesLowGrass', 'LowGrassChernarus', 'LowGrassChernarus_Summer', 'LowGrassBootcamp_acr', 'PLP_VTOLThrust', 'IBISS_Vfx_NVG', 'cw_9liners_and_notepad', 'bhc_map_contour', 'DFS_3rdPerson','tft_server', 'ANZ_ExtendedGrassMod_CUP', 'ANZ_HeliDustEfxMod', 'ANZ_ExtendedGrassMod', 'ANZ_WeatherCloudsMod', 'ANZ_MissileEfxMod', 'ANZ_ExtendedViewdistanceandShadowsMod', 'cfp_glasses', 'L_Align_Align_main', 'L_Align_Align_sys', 'data_f_flare', 'fare_AWL', 'fxp_adat', 'fxp_Arty82mm', 'fxp_Arty155mm', 'fxp_ArtyCanFired', 'fxp_ArtySmokShell', 'fxp_BombClust', 'fxp_BombGBU12', 'fxp_CannonFired', 'fxp_GrenadeSmoke', 'fxp_HitEfe', 'fxp_LauncherExp', 'fxp_LauncherSmo', 'fxp_MisRocSmo', 'fxp_RPGthru', 'fxp_VehCar', 'fxp_VehCarAmmo', 'fxp_VehCarFuel','fxp_VehExpEffect','fxp_VehExpEffectBig', 'fxp_VehExpEffectSmall', 'fxp_VehHeli', 'fxp_VehPlane', 'fxp_VehTank', 'fxp_VehTankWhe', 'L_Immerse_Immerse_main', 'L_Immerse_Immerse_sys','VCOM_AI','PY3_Pythia','Pythia_Sample_Patches','Larger_ACE_Nightvision_Border','Larger_ACE_Nightvision_Border_RHS_Compat','Larger_ACE_Nightvision_Border_CUP_Compat','fxp_Tracer','escapefromtarkov_soundenvironext','escapefromtarkov_soundgear','escapefromtarkov_sounds','escapefromtarkov_weapons','Tracer_C_F','Tracer_V','DIS_enhanced_map_ace', 'PDT_EnhancedNVG', 'CrowsZA']";
+force force ace_common_checkPBOsWhitelist = "['DEV_Tools','3denEnhanced', 'compositions_a3', 'CAU_ExtendedFunctionViewer', 'CAU_UserInputMenus', 'warfxpe', 'blastcore_maincore', 'jsrs_soundmod_bullethits', 'jsrs_soundmod_environment', 'jsrs_soundmod_framework', 'jsrs_soundmod_sonic_cracks', 'blastcore_vep', 'jsrs_soundmod_helicopters', 'jsrs_soundmod_landvehicles', 'jsrs_soundmod_movement', 'jsrs_soundmod_weapons', 'jsrs_soundmod_explosions', 'sma_elcan_altzoom_c', 'sma_standardammo', 'reducedhazemod', 'jsrs_soundmod_snd_air_vehicles', 'jsrs_soundmod_snd_environment', 'jsrs_soundmod_snd_land_vehicles', 'jsrs_soundmod_snd_movement', 'jsrs_soundmod_snd_warfare', 'jsrs_soundmod_snd_weapons', 'TER_Eden', 'jsrs_soundmod_snd_sea_vehicles', 'jsrs_soundmod_boats', 'jsrs_soundmod_complete_edition_soundfiles', 'jsrs_soundmod_complete_edition', 'jsrs_soundmod_rhs_usf_weapons', 'jsrs_soundmod_cfg_rhs_usf_weapons', 'jsrs_soundmod_cfg_rhs_usf_vehicles', 'jsrs_soundmod_cfg_rhs_usf_air_vehicles', 'jsrs_soundmod_rhs_afrf_weapons', 'jsrs_soundmod_cfg_rhs_afrf_weapons', 'jsrs_soundmod_cfg_rhs_afrf_vehicles', 'jsrs_soundmod_cfg_rhs_afrf_air_vehicles', 'jsrs_soundmod_rhs_gref_weapons', 'jsrs_soundmod_rhs_saf_weapons', 'HeadRangePlus', 'VCOM_AI', 'lambs_danger', 'athena', 'UtesLowGrass', 'LowGrassChernarus', 'LowGrassChernarus_Summer', 'LowGrassBootcamp_acr', 'PLP_VTOLThrust', 'IBISS_Vfx_NVG', 'cw_9liners_and_notepad', 'bhc_map_contour', 'DFS_3rdPerson','tft_server', 'ANZ_ExtendedGrassMod_CUP', 'ANZ_HeliDustEfxMod', 'ANZ_ExtendedGrassMod', 'ANZ_WeatherCloudsMod', 'ANZ_MissileEfxMod', 'ANZ_ExtendedViewdistanceandShadowsMod', 'L_Align_Align_main', 'L_Align_Align_sys', 'data_f_flare', 'fare_AWL', 'fxp_adat', 'fxp_Arty82mm', 'fxp_Arty155mm', 'fxp_ArtyCanFired', 'fxp_ArtySmokShell', 'fxp_BombClust', 'fxp_BombGBU12', 'fxp_CannonFired', 'fxp_GrenadeSmoke', 'fxp_HitEfe', 'fxp_LauncherExp', 'fxp_LauncherSmo', 'fxp_MisRocSmo', 'fxp_RPGthru', 'fxp_VehCar', 'fxp_VehCarAmmo', 'fxp_VehCarFuel','fxp_VehExpEffect','fxp_VehExpEffectBig', 'fxp_VehExpEffectSmall', 'fxp_VehHeli', 'fxp_VehPlane', 'fxp_VehTank', 'fxp_VehTankWhe', 'L_Immerse_Immerse_main', 'L_Immerse_Immerse_sys','VCOM_AI','PY3_Pythia','Pythia_Sample_Patches','Larger_ACE_Nightvision_Border','Larger_ACE_Nightvision_Border_RHS_Compat','fxp_Tracer','escapefromtarkov_soundenvironext','escapefromtarkov_soundgear','escapefromtarkov_sounds','escapefromtarkov_weapons','Tracer_C_F','Tracer_V','DIS_enhanced_map_ace', 'PDT_EnhancedNVG', 'CrowsZA', 'ZECCUP']";
 ace_common_displayTextColor = [0,0,0,0.1];
 ace_common_displayTextFontColor = [1,1,1,1];
 ace_common_settingFeedbackIcons = 1;
@@ -787,6 +787,11 @@ emr_main_preventHighVaulting = false;
 force emr_main_staminaCoefficient = 1;
 force emr_main_whitelistStr = "";
 
+// Fawks' Enhanced NVGs
+PDT_EnhancedNVG_NVG_Blacklist = "";
+PDT_EnhancedNVG_NVG_Effect = "";
+PDT_EnhancedNVG_Using_ACE = false;
+
 // Goko Simulate Mag Options
 GSM_option_bHintListSystemchat = false;
 GSM_option_nonCompatList = "BW-Mod**Bohemia Interactive**Your Example Author Name 3**";
@@ -873,6 +878,16 @@ force lambs_main_radioEast = 500;
 force lambs_main_radioGuer = 500;
 force lambs_main_radioShout = 100;
 force lambs_main_radioWest = 500;
+
+// Laxemann Align
+L_Align_enabled = true;
+L_Align_steadyShake_enabled = true;
+
+// Laxemann Immerse
+L_Immerse_exShake = true;
+L_Immerse_force = true;
+L_Immerse_recoil = true;
+L_Immerse_twitch = true;
 
 // NIArms
 force niarms_accswitch = true;
